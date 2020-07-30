@@ -1,0 +1,121 @@
+body {
+    background-color: #FCFCFC !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+.title {
+    color: #30292F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title {
+    font-size: xxx-large;
+    background-color: #F45B69;
+    border-bottom: 0.1em solid #F45B69 !important;
+}
+.mainContent p{
+    font-size: x-large !important;
+    color: #30292F;
+}
+.mainContent .books, .mainContent .audio, .mainContent .misc{
+    font-size: large !important;
+    color: #30292F;
+}
+@media (min-width: 320px) and (max-width: 480px) { /* Mobile phone*/
+  
+  .mainContent p{
+      font-size: medium !important;
+      padding-left: 0% !important;
+      padding-right: 0% !important;
+  }
+  .mainContent .books, .mainContent .audio, .mainContent .misc{
+    font-size: small !important;
+  }
+  .mainContent{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .footer div{
+    font-size: small !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 5% !important;
+}
+}
+nav button a{
+    color: white !important;
+    text-decoration: none !important;
+    display: block !important;
+    font-size: larger;
+}
+.homeCollage img{
+    height: auto;
+    width: 85%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.card {
+   margin-top: 5%;
+}
+.bg-dark-custom{
+    background-color: #30292F !important;
+}
+
+.card ul li{
+    background-color: #30292F !important;
+}
+div p button, ul li button{
+    border: 0 !important;
+    padding: 0 !important;
+    vertical-align: unset !important;
+}
+.collapsing {
+  transition: none !important;
+}
+.card-columns{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.footer{
+    background-color: #F45B69;
+}
+.footer div{
+    color: #30292F;
+    font-size: medium;
+}
+.footer div span i{
+    line-height: 1em;
+    vertical-align: unset;
+}
+.footer div:last-child span{
+    display: flex;
+    float: right;
+}
+.footer div:first-child span{
+    float: left;
+}
+.text-justify{
+    word-spacing: normal !important; 
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    .card {
+        max-width: 50% !important; 
+        margin: 0 !important;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .card {
+        
+    }
+}
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+} */
+/* .card-header .collapsed .fa {
+  transform: rotate(90deg);
+} */
